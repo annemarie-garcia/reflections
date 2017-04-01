@@ -5,6 +5,8 @@ You initialise a repository so that you have a project that you can track and ke
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+The working directory is your current working copy. The staging area allows you to prepare the commit and reduce errors, and allow you to change your mind and in this way it encourages fluidity and change. This is better than creating a commit and then undoing it.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
