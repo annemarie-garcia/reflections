@@ -1,9 +1,10 @@
 What happens when you initialize a repository? Why do you need to do it?
-You initialise a repository so that you have a project that you can track and keep your changes in. 
 
+You initialise a repository so that you have a project, folder and set of files that you can track and keep your changes in. 
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
 
 The working directory is your current working copy. The staging area allows you to prepare the commit and reduce errors, and allow you to change your mind and in this way it encourages fluidity and change. This is better than creating a commit and then undoing it.
 
@@ -13,10 +14,14 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+If you have two seperate pieces of work that do not relate to each other closely different branches are helpful in keeping the changes contained before testing.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+You merge two different branches to combine changes from two seperate branches. The result would be commits from both branches, ordered by date of commit.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
